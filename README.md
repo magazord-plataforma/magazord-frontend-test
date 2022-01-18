@@ -29,6 +29,9 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 * Uso de pré-processadores CSS como Sass, Less ou Stylus
 * Utilizar algum empacotador como Webpack ou similiar
 
+## Você não pode:
+* Usar frameworks, como Bootstrap, Materialize, Angular, VueJS, ReactJS
+
 ## Stack
 ### Preferível
 * Utilizar Sass como pré-processador
