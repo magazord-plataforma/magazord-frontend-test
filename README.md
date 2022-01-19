@@ -41,4 +41,4 @@ Todo o layout está hospedado no Zeplin neste link:
 https://www.figma.com/file/sf1CmqcEZbUzkeZOA4AUGj/TESTE-FRONT-MAGAZORD?node-id=0%3A1
 
 ## Envio do teste
-1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Gabriel Schmidt Cordeiro [gabriel.cordeiro@magazord.com.br](mailto:gabriel.cordeiro@magazord.com.br) com cópia para Paula Fernanda [paula.raimundo@magazord.com.br](mailto:paula.raimundo@magazord.com.br)
+* Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Gabriel Schmidt Cordeiro [gabriel.cordeiro@magazord.com.br](mailto:gabriel.cordeiro@magazord.com.br) com cópia para Paula Fernanda [paula.raimundo@magazord.com.br](mailto:paula.raimundo@magazord.com.br)
