@@ -27,7 +27,6 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 * HTML Semântico
 * CSS de fácil leitura e reutilização
 * Uso de pré-processadores CSS como Sass, Less ou Stylus
-* Utilizar algum empacotador como Webpack ou similiar
 
 ## Você não pode:
 * Usar frameworks, como Bootstrap, Materialize, Angular, VueJS, ReactJS
