@@ -37,7 +37,7 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 * Mobile First
 
 ## Material
-Todo o layout está hospedado no Zeplin neste link: 
+Todo o layout está hospedado no Figma neste link: 
 https://www.figma.com/file/sf1CmqcEZbUzkeZOA4AUGj/TESTE-FRONT-MAGAZORD?node-id=0%3A1
 
 ## Envio do teste
