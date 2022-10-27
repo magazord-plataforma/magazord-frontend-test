@@ -41,4 +41,4 @@ Todo o layout está hospedado no Figma neste link:
 https://www.figma.com/file/sf1CmqcEZbUzkeZOA4AUGj/TESTE-FRONT-MAGAZORD?node-id=0%3A1
 
 ## Envio do teste
-* Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End - SEU NOME** para Gabriel Schmidt Cordeiro [gabriel.cordeiro@magazord.com.br](mailto:gabriel.cordeiro@magazord.com.br) 
+* Suba o repositório no seu Github e envie o link diretamente para o seu recrutador. Obs.: Não serão aceitos alterações após o envio
