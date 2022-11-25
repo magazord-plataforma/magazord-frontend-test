@@ -28,9 +28,6 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 * CSS de fácil leitura e reutilização
 * Uso de pré-processadores CSS como Sass, Less ou Stylus
 
-## Você não pode:
-* Usar frameworks, como Bootstrap, Materialize, Angular, VueJS, ReactJS
-
 ## Stack
 ### Preferível
 * Utilizar Sass como pré-processador
