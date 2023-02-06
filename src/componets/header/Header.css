@@ -1,0 +1,72 @@
+.Header {
+  position: absolute;
+  top: 0px;
+  background: #24292E;
+  width: 100%;
+  height: 72px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Header {
+    height: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.Header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Header nav ul {
+    margin: 0px;
+  }
+}
+
+.Header nav a {
+  color: white;
+  padding: 0px 0px;
+}
+
+.barra {
+  position: absolute;
+  margin-left: 150px;
+  width: 10px;
+  height: 28px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .barra {
+    font-size: 0px;
+    line-height: 0px;
+  }
+}
+
+.profile {
+  position: absolute;
+  margin-left: 190px;
+  width: 45px;
+  height: 19px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    font-size: 0px;
+    line-height: 0px;
+  }
+}

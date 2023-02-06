@@ -1,0 +1,452 @@
+.Profile-sidebar {
+  width: 60%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 345px;
+  top: 130px;
+  margin-left: 129px;
+}
+
+
+/*foto do perfil*/
+.Profile-main img {
+  position: absolute;
+  width: 10.4vw;
+  height: 10.4vw;
+  left: 100px;
+  top: 138px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 16px 0px #000000B2 inset;
+}
+
+@media (max-width: 767px) {
+  .Profile-main img {
+    width: 104px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    left: 162px;
+    top: 131px;
+  
+  
+  }
+}  
+
+/*nome do profile*/
+.Profile-main-h1 {
+  position: absolute;
+  width: 247px;
+  height: 23px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  color: #262626;
+  top: 278px;
+  text-align: center;
+  margin-top: 22px;
+  margin-left:4%;
+}
+@media (max-width: 767px) {
+  .Profile-main-h1 {
+    align-items: center;
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    top: 251px;
+    left: 140px;
+    font-size: 20px;
+    line-height: 23px;
+    width: 147px;
+height: 23px;
+  }
+}
+
+/*sutitulo abaixo do nome*/
+.Profile-main-p {
+  position: absolute;
+  top:380px;
+  margin-left: 55px;  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  margin-top: 3px;
+}
+@media (max-width: 767px) {
+  .Profile-main-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    position: absolute;
+    width: 217px;
+    height: 32px;
+    left: 80px;
+    top: 358px;
+    color: #989898;
+   
+
+  }
+}  
+
+
+/*Repositorios conteudo*/
+.Profile-repos-content {
+  position: absolute;
+  top: 250px;
+  left: 190px;
+  margin-left: 320px;
+  
+}
+@media (max-width: 767px) {
+  .Profile-repos-content {
+      position: absolute;
+      margin-left: -160PX;
+      top: 690PX;
+  
+  }
+  }
+
+.Profile-followers {
+  display: none;
+}
+
+/*favoritos conteudo*/
+.Profile-starred {
+  position: absolute;
+  top: 250px;
+  left: 140px;
+  margin-left: 365px;
+  
+}
+@media (max-width: 767px) {
+  .Profile-starred {
+    position: absolute;
+    left: -320px;
+    
+    top: 700px;
+    
+    
+  
+  }
+
+  }
+
+/*botao repositorios*/
+  .Profile-repos-button {
+    background-image: url('./repositorios.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    top: 143px;
+    position: absolute;
+    margin-left: 535px;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 100px;
+    height: 21px;
+    background-color: transparent;
+    border: none;
+    
+}
+@media (max-width: 767px) {
+  .Profile-repos-button {
+    width: 89px;
+    height: 19px;
+    margin-left: 50px;
+    top: 486px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+  }
+  }
+
+/*botao favoritos*/
+.Profile-starred-button {
+  size: 18px;
+  padding-left: 760px;
+  top: 143px;
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  width: 59px;
+  height: 9.5px;
+  line-height: 21px;
+  background-color: transparent;
+  border: none;
+}
+@media (max-width: 767px) {
+  .Profile-starred-button {
+    position: absolute;
+    right: 110px;
+    top: 490px;
+    position: absolute;
+    width: 52px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #989898;
+
+  }
+}
+    
+
+/*linha ao passar pelo botao*/
+.Profile-repos-button:hover::after {
+  content: '';
+  display: block;
+  width: 170%;
+  margin-left: -40px;
+  height: 2px;
+  background-color: #f30b0b;
+  position: absolute;
+  bottom: -10px;
+}
+
+/*linha ao passar pelo botao starred*/
+.Profile-starred-button:hover::after {
+  content: '';
+  display: block;
+  top: 25px;
+  width: 17%;
+  margin-left: -40px;
+  height: 2px;
+  background-color: #f30b0b;
+  position: absolute;
+  bottom: -10px;
+}
+
+
+/*blocos que apresentam o repositorio*/
+  .Profile-repo-block {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-bottom: 20px;
+    margin-left: -5px;
+  }
+  @media (max-width: 767px) {
+    .Profile-repo-block {
+    
+   
+    }}
+
+    /*caixa de pesquisa*/
+.Profile-search {
+  top: 212px;
+  position: absolute;
+  margin-left: 520px;
+  
+  
+}
+.pesq {
+  background-image: url('./pesquisa.svg');
+  margin-left: -180px;
+background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  bottom: 20.83%;
+  border: 2px solid #989898;
+  color: #f30b0b;
+}
+@media (max-width: 767px) {
+  .pesq {
+    margin-right: 60px;
+    margin-top: 300px;
+
+  }}
+
+/*caixa de pesquisa dentro*/
+.Profile-search-input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 1px;
+  width: 150px;
+  margin-left: 40px;
+  
+}
+@media (max-width: 767px) {
+  .Profile-search-input {
+    display: none;
+  }}
+
+
+ 
+  
+  .octicon-star {
+    width: 16.54px;
+    height: 15.8px;
+    top:1.33px;
+    filter: invert(100%) hue-rotate(180deg);
+  }
+ 
+  .Profile-repo-star-count {
+    margin-left: 25px;
+    margin-top: -18px;
+  }
+   
+  
+  .Profile-repo-fork-count {
+    width: 14.17px;
+    height: 16.7px;
+    margin-left: 135px;
+    margin-top: -21px;
+
+  }
+  .Profile-repo-fork-icon {
+    width: 14.17px;
+    height: 16.7px;
+    margin-left: 105px;
+    margin-top: -18px;
+  }
+
+
+  .vcard {
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 85px;
+  }
+  /*icones do vcard */
+  .octicon-link{
+    position: absolute;
+    margin-left: -28px;
+    top: 96px;
+  }.octicon-location{
+    position: absolute;
+    margin-left: -28px;
+    top: 55px;
+
+  }
+
+  @media (max-width: 767px) {
+    .vcard {
+      display: none;
+    }
+  }
+  .details-reset {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .details-overlay {
+    position: absolute;
+    top: 190px;
+    left: 700px;
+    right: 0; 
+    border-radius: 0.25rem;
+    
+  }
+    /* botao type */
+  .dropdown-button {
+    position: absolute;
+    display: inline-flex;
+    margin-left: 1000px;
+    margin-top: 200px;
+    background: linear-gradient(89.89deg, #0056A6 -30.01%, #0587FF 125.65%);
+    border-radius: 42px;
+    padding: 2px 14px 8px 8px;
+    border-radius: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+   
+  }
+ 
+  @media (max-width: 767px) {
+    .dropdown-button { 
+   margin-left: 20px;
+   top: 345px;
+   font-family: 'Roboto';
+   font-style: normal;
+   width: 60px;
+  
+   
+   
+  }} 
+
+   /*tabela do botao language */
+.menu-languages {
+  position: absolute;
+  margin-left: 1100px;
+  top: 240px;
+  font-size: 18px;
+  flex: none;
+  }
+
+
+  /*tabela do botao type */
+.menu-lista {
+  position: absolute;
+  margin-left: 800px;
+  top: 240px;
+}
+.tabela, .menu-languages {
+  background-color: #a69595;
+  width: 160px;
+  height: 250px;
+}
+
+.icondown {
+color: aliceblue;
+margin-right: 18px;
+font-size: 20px;
+}
+
+
+
+    /* botao Language*/
+.dropdown-button2 {
+  position: absolute;
+  margin-left: 1140px;
+  margin-top: 200px;
+  background: linear-gradient(89.89deg, #0056A6 -30.01%, #0587FF 125.65%);
+  border-radius: 42px;
+  padding: 2px 14px 8px 8px;
+  border-radius: 14px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+
+  }
+
+  @media (max-width: 767px) {
+    .dropdown-button2 { 
+      margin-left: 100px;
+      top:345px ;
+      width: 72px;
+      height: 55px;
+
+     
+  }}  
+
+  
+
+  
+  
+  
+  
+  
