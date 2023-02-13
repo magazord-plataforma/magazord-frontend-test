@@ -22,11 +22,18 @@ Este repositório tem como fim testar os candidatos para vaga de front-end devel
 2. Carregar os repositórios do usuário inicialmente
 3. Carregar os favoritos do usuário ao acessar a tab **Starred**
 4. Fazer uma busca ao digitar e fazer o submit com "Enter"
+5. Ao clicar em um repositório trazer as informações deles, como acontece nesse [neste exemplo](https://github-explorer.gabrielcordeiro.dev/repository/facebook/react)
 
-## O que esperamos no teste
+## O que esperamos no teste para a vaga de front-end
 * HTML Semântico
 * CSS de fácil leitura e reutilização
 * Uso de pré-processadores CSS como Sass, Less ou Stylus
+
+## O que esperamos no teste para a vaga de React
+* Typescript
+* HTML Semântico
+* Usar styled-components ou qualquer outra lib similar
+* Boa estruturação de pastas e componentes sendo possível a reutilização dos mesmos
 
 ## Stack
 ### Preferível
